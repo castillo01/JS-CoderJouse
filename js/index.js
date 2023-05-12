@@ -9,7 +9,7 @@ const minimoSimulador = document.querySelector("#minimoSimulado");
 const simulador = document.querySelector("#simulador");
 const inputNumero = document.querySelector("#inputNumero");
 const buttonSimular = document.querySelector("#button-simular");
-const URL = `../array.json`;
+const URL = `js/array.json`;
 const creditos = [];
 
 fetch(URL)
