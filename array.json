@@ -1,0 +1,6 @@
+[{"imagen":"img/letra-a.png","nombre":"Credito Alianza","interes":25,"cuotas":6,"minimo":20000,"limite":90000},
+    {"imagen":"img/letra-b.png","nombre":"Credito Basic Alianza","interes":35,"cuotas":10,"minimo":91000, "limite":150000},
+    {"imagen":"img/letra-c.png","nombre":"Credito Clasico Alianza","interes":45,"cuotas":14,"minimo":151000,"limite":210000},
+    {"imagen":"img/letra-d.png","nombre":"Credito Diamond Alianza","interes":55,"cuotas":18,"minimo":211000,"limite":270000},
+    {"imagen":"img/letra-e.png","nombre":"Credito Excelencia Alianza","interes":65,"cuotas":24,"minimo":281000,"limite":360000},
+    {"imagen":"img/letra-f.png","nombre":"Credito Finalidad Alianza","interes":75,"cuotas":30,"minimo":361000,"limite":450000}]

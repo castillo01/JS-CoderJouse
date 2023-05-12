@@ -100,3 +100,60 @@ strong {
     justify-content: center;
     align-items: center;
 }
+
+.simulador {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.imageSimulador {
+    width: 100%;
+    max-width: 100px;
+}
+
+.spanSimulador {
+    background-color: orange;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.contenedorSimulador {
+    
+}
+
+span {
+    padding: 10px;
+}
+
+#botonSimular {
+    padding: 5px;
+    margin: 10px;
+}
+
+.iconoGuardado {
+    width: 40px;
+}
+
+.botonGuardado {
+    background-color: none;
+}
+
+#botonAdquirir {
+    color: white;
+    background-color: orange;
+    padding: 5px;
+    margin: 5px;
+}
+
+.iconoCarga {
+    width: 200px;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,27 +8,47 @@
     <title>3era. Preentrega</title>
     <link rel="stylesheet" href="css/estilo.css">
     <script src="js/variables.js"></script>
+    <script defer src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script defer src="js/index.js"></script>
 </head>
+
 <body>
     <header class="encabezado">
         <h1>Credito Alianza BA</h1>
     </header>
 
-    
+
     <main id="principal">
         <div class="textoPresentacion">
-            <p>Bienvenido al simulador de créditos Alianza BA, con esta herramienta podrá calcular y elegir el crédito que más se adecue a sus necesidades. Te invito a probar su funcionalidad.</p>
+            <p>Bienvenido al simulador de créditos Alianza BA, con esta herramienta podrá calcular y elegir el crédito
+                que más se adecue a sus necesidades. Te invito a probar su funcionalidad.</p>
         </div>
-        
+
         <div class="contenedor" id="contenedor">
-            
+
         </div>
         </div>
+
+        <section class="contenedorSimulador">
+            <div id="simulador" class="simulador">
+                <div class="imageSimulado" id="imageSimulado"></div>
+
+                <span class="spanSimulador" id="nombreSimulado"></span>
+                <span class="spanSimulador" id="interesSimulado"></span>
+                <span class="spanSimulador" id="cuotasSimulado"></span>
+                <span class="spanSimulador" id="limiteSimulado"></span>
+                <span class="spanSimulador" id="minimoSimulado"></span>
+                 <span id="spanCotizar">Ingrese el monto que desea solicitar: <input type="number" name="" id="inputNumero"></span>
+                 <div id="button-simular">
+                    
+                 </div>
+            </div>
+        </section>
     </main>
 
     <footer>
-        
+
     </footer>
 </body>
+
 </html>
